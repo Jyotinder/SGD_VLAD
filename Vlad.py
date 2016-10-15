@@ -12,6 +12,8 @@ def find_nn(point, neighborhood):
     Returns:
         float array: The point that is the nearest neighbor of the initial point.
         integer: Index of the nearest neighbor inside the neighborhood list
+    
+http://aggiecv.blogspot.com/2016/02/object-classification-second-week.html
     """
     min_dist = float('inf')
     nn = neighborhood[0]
@@ -37,6 +39,7 @@ def vladFun(descriptors, centers):
 
     Returns:
         numpy float array: The VLAD vector.
+    http://aggiecv.blogspot.com/2016/02/object-classification-second-week.html
     """
     dimensions = len(descriptors[0])
     vlad_vector = np.zeros((len(centers), dimensions), dtype=np.float)
