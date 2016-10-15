@@ -1,0 +1,8 @@
+.idea/
+HOG.zip 
+Images/ 
+*.pyc
+UC_Mersed_HOG.data
+bakup/ 
+shell.sh
+Kmean/
