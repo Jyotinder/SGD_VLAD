@@ -6,3 +6,5 @@ UC_Mersed_HOG.data
 bakup/ 
 shell.sh
 Kmean/
+*.pkl
+dataset/
